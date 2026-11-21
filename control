@@ -1,0 +1,8 @@
+Package: com.zaka.attribclean
+Name: AttribClean 归因清理
+Version: 1.0.0
+Description: 归因数据清理工具。重新生成 IDFA/IDFV、清理 AppsFlyer / Adjust / Branch / Meta / 字节 / 腾讯等归因 SDK 在本机的数据，重置 ATT 授权状态。每个 App 单独开关，默认全部关闭。
+Maintainer: Zaka
+Author: Zaka
+Section: Tweaks
+Depends: mobilesubstrate | ellekit | libhooker, firmware (>= 15.0)
